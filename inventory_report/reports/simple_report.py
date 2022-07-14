@@ -23,7 +23,7 @@ def manufacturing(list):
     for number in filtered_list_fabric:
         if number < oldest_manufacture:
             oldest_manufacture = number
-    
+
     return oldest_manufacture
 
 
