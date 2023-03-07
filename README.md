@@ -419,47 +419,4 @@ Essa função deve, ao receber pela linha de comando o caminho de um arquivo e o
 ```bash
 inventory_report <caminho_do_arquivo_input> <tipo_de_relatório>
 ```
-
-- Caso a chamada tenha menos de três argumentos (o nome `inventory_report` é considerado o primeiro argumento), exiba a mensagem de erro "Verifique os argumentos" na `stderr`.
-    
-**Dicas:**
-  - Se o comando não encontrar o pacote `inventory_report`, basta executar `pip install .` na raiz do projeto.
-
-  - Você pode utilizar o `sys.argv` para receber a entrada de dados da pessoa usuária.
-    
-  - Ao utilizar algo do módulo `sys`, faça a importação com `import sys` e utilize `sys.xxxx` (onde xxxx é o que você quer utilizar). Não faça `from sys import xxxx`, pois isso pode fazer com que os testes não passem.
-    
-  - Tome a precaução de não deixar um `print()` em seu código, pois ele irá conflitar com os testes.
-
-<details>
-  <summary>
-    <b>✍️ Teste manual</b>
-  </summary> No ambiente virtual onde seu projeto foi configurado, instale o próprio projeto com o comando
-  <code>pip install .</code>
-  Agora execute o projeto com:
-  <code>inventory_report parametro_1 parametro_2</code>
-  exemplo:
-  <code>inventory_report inventory_report/data/inventory.csv simples</code>
-  Desta forma você conseguirá interagir gerar o relatório com o comando.
-</details>
-
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-  - 11.1 - Será validado se pelo comando é possível importar um arquivo csv simples
-
-  - 11.2 - Será validado se pelo comando é possível importar um arquivo csv completo
-
-  - 11.3 - Será validado se pelo comando é possível importar um arquivo json simples
-
-  - 11.4 - Será validado se pelo comando é possível importar um arquivo json completo
-
-  - 11.5 - Será validado se pelo comando é possível importar um arquivo xml simples
-
-  - 11.6 - Será validado se pelo comando é possível importar um arquivo xml completo
-
-  - 11.7 - Será validado se houverem argumentos faltantes será retornando um erro
-
-### Como vocês podem ver eu não fiz os requisitos 8, 9, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7
+# Como vocês podem ver eu não fiz os requisitos 8, 9, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7
