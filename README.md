@@ -419,4 +419,4 @@ Essa função deve, ao receber pela linha de comando o caminho de um arquivo e o
 ```bash
 inventory_report <caminho_do_arquivo_input> <tipo_de_relatório>
 ```
-# Como vocês podem ver eu não fiz os requisitos 8, 9, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7
+### Como vocês podem ver eu não fiz os requisitos 8, 9, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7
