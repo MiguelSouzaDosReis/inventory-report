@@ -1,6 +1,6 @@
 # Project Inventory Report
 
-Neste projeto aprendi a fazer P.O.O em pytho e a utiliza o padrão Iterator, Adapter, Strategy, Decorator, Observer, Factory. Desta forma consegui realizar os desafios propostos pela Trybe
+Neste projeto de Python, aprofundei meus conhecimentos em Programação Orientada a Objetos (POO) e aprendi a utilizar alguns padrões de design, como Iterator, Adapter, Strategy, Decorator, Observer e Factory.
 
 # Os desafios são:
 
